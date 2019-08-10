@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-family: 'Roboto';
+}
+
+img.spotify-logo {
+    display: flex;
+}
+
+ul.nav-bar-ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 866px;
+    margin-top: -34px;
+    list-style-type: none;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.landing-pic {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    padding: 25%;
+    margin-top: 25px;
+}
+
+h1, p.landing {
+    color: white;
+}
+
+h1.landing {
+    font-size: -webkit-xxx-large;
+    text-align: center;
+}
+
+p.landing {
+    font-size: large;
+    text-align: center;
+    font-weight: 100;
+}
+
+h3.green {
+    color: #1AB26B;
+}
+
+div.qa {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+h2.border {
+    border-bottom-color: #1AB26B;
+    border-bottom-style: solid;
+}
+
+div.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 35px;
+}
+p.light {
+    font-weight: 100;
+}
+
+section.bg-green {
+    background-color: #1AB26B;
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
+h2.last-header {
+    color: white;
+    border-bottom-style: solid;
+    width: fit-content;
+    margin-left: 150px;
+
+}
+
+div.search, div.browse, div.discover {
+    color: white;
+    margin-left: 150px;
+    font-weight: 100;
+}
+
+div.search {
+    margin-bottom: -100px;
+}
+div.pos {
+    margin-bottom: 100px;
+}
+
+img.white-icon {
+    margin-left: 500px;
+}
+div.text {
+margin-top: -115px;
+}
+
+div.discover {
+    margin-top: -20px;
+}
+
+div.icon {
+    display: flex;
+    justify-content: center;
+}
+
+div.yeezy-pic {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 130px;
+    margin-top: 70px
+}
+
+img.play {
+    margin-top: -500px;
+}
+
