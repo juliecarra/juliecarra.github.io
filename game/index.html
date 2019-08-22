@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="./js/app.js"></script>
+</head>
+<body class="color-change-2x">
+
+    <!--Header-->
+    <div>
+        <h1 class="bounce-in-fwd">Tic Tac Toe</h1>
+    </div>
+
+    <!--Enter name section-->
+    <div class="enter-names">
+        <form id="player-form">
+            <div class="player-container">
+                <label for="player1" class="tracking-in-expand-fwd">Player 1</label>
+                <input type="text" placeholder="Enter first player's name" id="playerOne" class="input-section" />
+            </div>
+            <br />
+            <div class="player-container">
+                <label for="player2" class="tracking-in-expand-fwd">Player 2</label>
+                <input type="text" placeholder="Enter second player's name" id="playerTwo" class="input-section" />
+            </div>
+            <input type="submit" class="submit-btn heartbeat" onclick="playSound();" value="Press Play"/>
+            <audio id="audio" src="https://www.soundjay.com/button/sounds/button-1.mp3" autoplay="false" ></audio>
+        </form>
+    </div>
+    
+    <!--Grid Section-->
+    <div class="main-grid hide-container">
+  <div class="player-turn"></div>
+  <audio id="audio-2" src="http://www.soundjay.com/button/beep-07.wav" autoplay="false" ></audio>
+
+        
+            <div class="board-container"  onclick="playSound2();">
+              <div class="board-square">
+                <div class="symbol" data-id="0"></div>
+              </div>
+              <div class="board-square">
+                <div class="symbol" data-id="1"></div>
+              </div>
+              <div class="board-square">
+                <div class="symbol" data-id="2"></div>
+              </div>
+              <div class="board-square">
+                <div class="symbol" data-id="3"></div>
+              </div>
+              <div class="board-square">
+                <div class="symbol" data-id="4"></div>
+              </div>
+              <div class="board-square">
+                <div class="symbol" data-id="5"></div>
+              </div>
+              <div class="board-square">
+                <div class="symbol" data-id="6"></div>
+              </div>
+              <div class="board-square">
+                <div class="symbol" data-id="7"></div>
+              </div>
+              <div class="board-square">
+                <div class="symbol" data-id="8"></div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Reset Section-->
+          <div class="reset reset-hidden">
+              <div> 
+              </div>
+              <button class="replay-btn shake-horizontal" onclick="playSound3();" value="replay">
+                  <audio id="audio-3" src="https://www.soundjay.com/button/sounds/beep-24.mp3" autoplay="false" ></audio>
+                  <span class="clear-board">Clear Board</span>
+                </button>
+            </div>
+        </body>
+        </html>
